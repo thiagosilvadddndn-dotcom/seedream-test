@@ -1,0 +1,888 @@
+﻿{
+  "seo": {
+    "homepage": {
+      "title": "Seedream 4.5 Free Online | The Next Gen AI Image Generator",
+      "description": "Experience Seedream 4.5 online. We are building the most intuitive interface for ByteDance's latest image generation model. Sign up for early access.",
+      "canonicalUrl": "https://www.seedream4-5.cc/"
+    }
+  },
+  "header": {
+    "logo": "Seedream 4.5",
+    "logoImage": "/logo/android-chrome-512x512.png",
+    "nav": {
+      "features": "Features",
+      "howItWorks": "How It Works",
+      "pricing": "Pricing",
+      "faq": "FAQ"
+    },
+    "cta": "Get Started Free",
+    "auth": {
+      "signIn": "Sign In",
+      "signOut": "Sign Out",
+      "signInWith": "Sign in with {provider}",
+      "welcome": "Welcome, {name}!",
+      "credits": "{count} Credits",
+      "dashboard": "Dashboard",
+      "signin": {
+        "title": "Welcome Back to Seedream 4.5",
+        "subtitle": "Sign in to continue your creative journey",
+        "withGoogle": "Continue with Google"
+      }
+    }
+  },
+  "hero": {
+    "title": "Seedream 4.5: The High-Fidelity AI Image Generator",
+    "subtitle": "Master prompt adherence without the headache. We built the ultimate no-code wrapper for Seedream 4.5 so you can generate precise, coherent images instantly. No complex setups, just pure creativity.",
+    "cta": {
+      "primary": "Start Creating Now"
+    },
+    "image": "/hero/default/hero.webp",
+    "imageAlt": "Seedream 4.5 AI showcase",
+    "variants": {
+      "style1": {
+        "badge": {
+          "text": "Powered by Seedream-Core AI V5",
+          "link": "#link"
+        },
+        "title": "Professional AI Art Generated Instantly",
+        "subtitle": "From concept to canvas in seconds. Seedream 4.5 interprets your prompts with unmatched accuracy to deliver high-resolution artwork.",
+        "cta": {
+          "primary": "Generate Your First Image"
+        },
+        "mainImageDark": "/hero/1/hero.webp",
+        "mainImageLight": "/hero/1/hero.webp",
+        "mainImageAlt": "Seedream 4.5 Interface",
+        "backgroundImage": "https://ik.imagekit.io/lrigu76hy/tailark/night-background.jpg?updatedAt=1745733451120",
+        "backgroundImageAlt": "Creative Background",
+        "customersSection": {
+          "linkText": "Join the Seedream Creative Community"
+        }
+      },
+      "style2": {
+        "title": "Design 10x Faster with Seedream 4.5",
+        "subtitle": "Stop searching for stock photos. Create exactly what you need with our powerful AI technology. Perfect for marketers, artists, and dreamers.",
+        "cta": {
+          "primary": "Try Seedream 4.5 Free"
+        },
+        "mainImageDark": "/hero/2/hero.webp",
+        "mainImageLight": "/hero/2/hero.webp",
+        "mainImageAlt": "Seedream 4.5 Examples",
+        "customersSection": {
+          "linkText": "See Community Creations"
+        }
+      },
+      "style3": {
+        "title": "Infinite Imagination, Nano Precision",
+        "subtitle": "Whether it's photorealistic portraits or surreal landscapes, Seedream 4.5 brings your vision to life with exceptional detail and vibrant color.",
+        "cta": {
+          "primary": "Start Generating"
+        },
+        "backgroundImage": "/hero/3/hero.webp",
+        "backgroundImageAlt": "Abstract Art by Seedream 4.5",
+        "customersSection": {
+          "title": "Trusted by Top Designers"
+        }
+      },
+      "style4": {
+        "title": "Turn Words into Visual Gold",
+        "subtitle": "Our advanced algorithms analyze every nuance of your description to generate pixel-perfect images tailored to your specific needs.",
+        "cta": {
+          "primary": "Create Your Image"
+        },
+        "videoSrc": "/hero/4/hero.mp4",
+        "customersSection": {
+          "title": "Used by Leading Creators Worldwide"
+        }
+      },
+      "style5": {
+        "navigation": {
+          "items": [
+            {
+              "name": "Features",
+              "href": "#"
+            },
+            {
+              "name": "Pricing",
+              "href": "#"
+            },
+            {
+              "name": "Gallery",
+              "href": "#"
+            },
+            {
+              "name": "API",
+              "href": "#"
+            }
+          ],
+          "login": "Login",
+          "signup": "Get Started",
+          "openMenu": "Open Menu",
+          "closeMenu": "Close Menu"
+        },
+        "title": "AI Image Generation Reimagined",
+        "subtitle": "Experience the next evolution of digital art. Seedream 4.5 understands your creative intent better than any other tool.",
+        "cta": {
+          "primary": "Start Creating Free"
+        },
+        "mainImageLight": "/hero/5/hero.webp",
+        "mainImageDark": "/hero/5/hero.webp",
+        "mainImageAlt": "Seedream 4.5 Dashboard",
+        "partnersSection": {
+          "title": "Powering creativity for teams at"
+        }
+      }
+    }
+  },
+  "toolSection": {
+    "title": "Seedream 4.5 Studio",
+    "description": "Enter your prompt below and watch our AI weave pixels into magic.",
+    "placeholder": "A cyberpunk banana floating in a neon city...",
+    "generateButton": "Generate Image",
+    "generating": "Dreaming...",
+    "creditsPerGeneration": "Cost: 3 Credits per image",
+    "downloadImage": "Download HD",
+    "downloading": "Saving...",
+    "aspectRatio": {
+      "label": "Canvas Size",
+      "square": "Square (1:1)",
+      "landscape": "Landscape (16:9)",
+      "portrait": "Portrait (9:16)"
+    },
+    "examples": [
+      "A futuristic city built inside a giant glass bottle",
+      "Oil painting of a cozy cabin in the woods during autumn",
+      "3D render of a cute robot gardener"
+    ],
+    "errors": {
+      "unauthorized": "Please sign in to use Seedream 4.5",
+      "insufficientCredits": "Low balance. You need {required} credits but have {current}.",
+      "needMoreCredits": "Top up Credits?",
+      "generationFailed": "The AI blinked. Please try again.",
+      "invalidParams": "Please check your prompt and settings.",
+      "downloadFailed": "Download failed. Please try again."
+    },
+    "success": {
+      "generated": "Masterpiece created successfully!",
+      "creditsUsed": "Credits spent: {amount}",
+      "creditsRemaining": "Balance: {amount}"
+    }
+  },
+  "features": {
+    "title": "Why Upgrade to Seedream 4.5?",
+    "subtitle": "Discover the features that make Seedream 4.5 the ultimate toolkit for high-fidelity image synthesis and commercial workflows.",
+    "items": [
+      {
+        "title": "Lightning-Fast Generation",
+        "description": "Don't lose your flow. Generate complex images in seconds with our optimized engine.",
+        "image": "/features/default/1.webp",
+        "imageAlt": "Fast generation speed"
+      },
+      {
+        "title": "8K Resolution Support",
+        "description": "Crystal clear details. Perfect for printing, web design, or professional portfolios.",
+        "image": "/features/default/2.webp",
+        "imageAlt": "High resolution output"
+      },
+      {
+        "title": "Infinite Style Library",
+        "description": "From Anime to Zaha Hadid architecture. If you can name the style, we can generate it.",
+        "image": "/features/default/3.webp",
+        "imageAlt": "Artistic styles"
+      },
+      {
+        "title": "Batch Creation",
+        "description": "Need variations? Generate 4 images at once to pick your favorite composition.",
+        "image": "/features/default/4.webp",
+        "imageAlt": "Batch processing"
+      }
+    ],
+    "variants": {
+      "style1": {
+        "title": "Built for Power Users",
+        "subtitle": "Seedream 4.5 scales with your ambition, offering tools for both hobbyists and studios.",
+        "mainImageDark": "/features/1/features.webp",
+        "mainImageLight": "/features/1/features.webp",
+        "mainImageAlt": "Seedream 4.5 Workspace",
+        "supportItems": [
+          {
+            "icon": "mail",
+            "text": "Priority human support"
+          },
+          {
+            "icon": "zap",
+            "text": "Turbo mode generation"
+          },
+          {
+            "icon": "activity",
+            "text": "Prompt history & analytics"
+          },
+          {
+            "icon": "drafting-compass",
+            "text": "Negative prompt control"
+          }
+        ]
+      },
+      "style2": {
+        "title": "The Complete Creative Ecosystem",
+        "subtitle": "Seedream 4.5 isn't just a generator; it's your personal art studio in the cloud.",
+        "mainImageUpper": "/features/2/features.webp",
+        "mainImageDark": "/features/2/features.webp",
+        "mainImageLight": "/features/2/features.webp",
+        "mainImageAlt": "Workflow Diagram",
+        "features": [
+          {
+            "icon": "zap",
+            "title": "Lightning Fast",
+            "description": "Render high-fidelity visuals faster than you can sketch them."
+          },
+          {
+            "icon": "cpu",
+            "title": "Smart AI Context",
+            "description": "Our model understands complex scenes and lighting physics."
+          },
+          {
+            "icon": "lock",
+            "title": "Private & Secure",
+            "description": "Your prompts and gallery remain 100% yours and private."
+          },
+          {
+            "icon": "sparkles",
+            "title": "Auto-Upscale",
+            "description": "Built-in enhancement tools to sharpen and clarify details."
+          }
+        ]
+      },
+      "style3": {
+        "title": "Designed for Excellence",
+        "subtitle": "Intuitive controls meet professional power. Tweak, iterate, and perfect your art.",
+        "mainImageUpper": "/features/3/features.webp",
+        "mainImageDark": "/features/3/features.webp",
+        "mainImageLight": "/features/3/features.webp",
+        "mainImageAlt": "Fine-tuning controls",
+        "features": [
+          {
+            "icon": "zap",
+            "title": "Instant Variations",
+            "description": "One click to see your idea in different lighting or angles."
+          },
+          {
+            "icon": "cpu",
+            "title": "Latest Models",
+            "description": "Always running on the newest stable diffusion technologies."
+          },
+          {
+            "icon": "lock",
+            "title": "Commercial Rights",
+            "description": "Use your Seedream 4.5 creations for any commercial project."
+          },
+          {
+            "icon": "sparkles",
+            "title": "Magic Fix",
+            "description": "AI-assisted inpainting to fix small details instantly."
+          }
+        ]
+      },
+      "style4": {
+        "title": "More Than Just a Generator",
+        "subtitle": "Manage your assets, organize your portfolio, and integrate with your workflow.",
+        "items": [
+          {
+            "icon": "database",
+            "title": "Asset Library",
+            "description": "Organize, tag, and search your past generations easily in the cloud.",
+            "image": "/features/4/1.webp",
+            "imageAlt": "Library Interface"
+          },
+          {
+            "icon": "fingerprint",
+            "title": "Style Cloning",
+            "description": "Upload a reference image and let Seedream 4.5 mimic the vibe.",
+            "image": "/features/4/2.webp",
+            "imageAlt": "Style Matching"
+          },
+          {
+            "icon": "id-card",
+            "title": "Brand Kits",
+            "description": "Save your color palettes and preferred styles for consistent output.",
+            "image": "/features/4/3.webp",
+            "imageAlt": "Brand consistency tools"
+          },
+          {
+            "icon": "chart-bar-increasing",
+            "title": "Usage Insights",
+            "description": "Track your credit spending and generation habits.",
+            "image": "/features/4/4.webp",
+            "imageAlt": "Usage Analytics"
+          }
+        ]
+      }
+    }
+  },
+  "howItWorks": {
+    "title": "How Seedream 4.5 Works",
+    "subtitle": "Generate professional AI art in 3 simple steps.",
+    "steps": [
+      {
+        "title": "Dream It",
+        "description": "Type a description. Be vague or specific—our AI handles both beautifully."
+      },
+      {
+        "title": "Style It",
+        "description": "Choose a preset style (Cinematic, Anime, Oil Painting) or go custom."
+      },
+      {
+        "title": "Create It",
+        "description": "Instantly render high-fidelity images. Download in 4K resolution, ready for your portfolio or commercial projects."
+      }
+    ]
+  },
+  "whyChooseUs": {
+    "title": "Why Seedream 4.5?",
+    "subtitle": "Join the community of creators redefining digital art.",
+    "description": "We combine an easy-to-use interface with the most powerful backend in the industry.",
+    "benefits": [
+      {
+        "title": "Next-Gen AI Models",
+        "description": "Constantly updated for better hands, faces, and lighting."
+      },
+      {
+        "title": "Zero Learning Curve",
+        "description": "No technical jargon. Just type and create."
+      },
+      {
+        "title": "Rapid Rendering",
+        "description": "Don't wait for a queue. Get results instantly."
+      },
+      {
+        "title": "Fair Pricing",
+        "description": "Get more credits for your dollar than competitors."
+      }
+    ],
+    "image": "/features/default/1.webp",
+    "variants": {
+      "style1": {
+        "title": "The Complete AI Art Studio",
+        "mainImageDark": "/why-choose/1/1.webp",
+        "mainImageLight": "/why-choose/1/1.webp",
+        "mainImageAlt": "Seedream 4.5 Platform",
+        "description1": "Seedream 4.5 is evolving beyond a simple tool.",
+        "description1Highlight": "It's a creative partner",
+        "description1After": "— helping you visualize concepts instantly.",
+        "description2": "From storyboarding for films to creating marketing assets, we support your entire pipeline.",
+        "testimonial": {
+          "quote": "Seedream 4.5 became our go-to for rapid prototyping. The quality consistency is unlike anything else we've tried.",
+          "author": "Sarah Jenkins, Art Lead",
+          "companyLogo": "https://html.tailus.io/blocks/customers/nvidia.svg",
+          "companyLogoAlt": "Partner Logo"
+        }
+      },
+      "style2": {
+        "title": "A Symphony of AI Models",
+        "mainImageDark": "/why-choose/2/1.webp",
+        "mainImageLight": "/why-choose/2/1.webp",
+        "mainImageAlt": "AI Architecture",
+        "description1": "We don't just rely on one model.",
+        "description1Highlight": "Seedream 4.5 orchestrates multiple engines",
+        "description1After": "— to ensure the best composition and texture.",
+        "description2": "Our proprietary pipeline optimizes your prompt before it even hits the generator.",
+        "features": [
+          {
+            "icon": "zap",
+            "title": "Turbo Mode",
+            "description": "Get draft-quality images in under 2 seconds."
+          },
+          {
+            "icon": "cpu",
+            "title": "Deep Understanding",
+            "description": "Natural Language Processing that truly 'gets' your prompt."
+          }
+        ]
+      },
+      "style3": {
+        "title": "Creativity for Everyone",
+        "description": "Seedream 4.5 removes the barrier to entry for digital art. Whether you are a seasoned illustrator or just getting started, our platform adapts to you.",
+        "teamImage": "/why-choose/3/1.webp",
+        "teamImageAlt": "Team using Seedream 4.5",
+        "cta": {
+          "text": "Start Creating",
+          "link": "#"
+        }
+      },
+      "style4": {
+        "title": "The Next Generation of Art",
+        "subtitle": "Combine human creativity with machine precision. Seedream 4.5 is the bridge between your imagination and reality.",
+        "teamImage": "/why-choose/4/1.webp",
+        "teamImageAlt": "Digital artists at work",
+        "features": [
+          {
+            "icon": "zap",
+            "title": "Real-Time Preview",
+            "description": "See your generation progress in real-time."
+          },
+          {
+            "icon": "cpu",
+            "title": "Pro Controls",
+            "description": "Adjust seed, guidance scale, and steps for total control."
+          },
+          {
+            "icon": "lock",
+            "title": "Enterprise Ready",
+            "description": "SSO and team management available for large organizations."
+          },
+          {
+            "icon": "sparkles",
+            "title": "Auto-Enhance",
+            "description": "One-click fix for lighting and color balance."
+          }
+        ]
+      }
+    }
+  },
+  "testimonials": {
+    "title": "Loved by the Seedream Community",
+    "subtitle": "See what artists, marketers, and designers are creating with Seedream 4.5.",
+    "items": [
+      {
+        "name": "Jonathan Yombo",
+        "role": "Graphic Designer",
+        "image": "https://randomuser.me/api/portraits/men/1.jpg",
+        "imageAlt": "Jonathan Yombo",
+        "quote": "Seedream 4.5 is a game changer. I used to spend hours searching for assets, now I just generate them in seconds."
+      },
+      {
+        "name": "Yves Kalume",
+        "role": "Digital Artist",
+        "image": "https://randomuser.me/api/portraits/men/6.jpg",
+        "imageAlt": "Yves Kalume",
+        "quote": "The understanding of lighting in Seedream 4.5 is superior to other tools I've used. It's a permanent part of my workflow now."
+      },
+      {
+        "name": "Yucel Faruksahan",
+        "role": "Content Creator",
+        "image": "https://randomuser.me/api/portraits/men/7.jpg",
+        "imageAlt": "Yucel Faruksahan",
+        "quote": "Fast, affordable, and high quality. Seedream 4.5 helps me keep my social media feed fresh every single day."
+      },
+      {
+        "name": "Alex M.",
+        "role": "Marketing Specialist",
+        "image": "https://randomuser.me/api/portraits/men/8.jpg",
+        "imageAlt": "Alex M.",
+        "quote": "I tried Midjourney and DALL-E, but the interface on Seedream 4.5 is just so much more user-friendly for my team."
+      },
+      {
+        "name": "Shekinah Tshiokufila",
+        "role": "UX Designer",
+        "image": "https://randomuser.me/api/portraits/men/4.jpg",
+        "imageAlt": "Shekinah Tshiokufila",
+        "quote": "It's redefining creative standards. Seedream 4.5 allows me to mock up website concepts with custom imagery instantly."
+      },
+      {
+        "name": "Oketa Fred",
+        "role": "Web Developer",
+        "image": "https://randomuser.me/api/portraits/men/2.jpg",
+        "imageAlt": "Oketa Fred",
+        "quote": "The API documentation for Seedream 4.5 is excellent. Integrated it into our app in less than an hour."
+      },
+      {
+        "name": "Zeki",
+        "role": "Startup Founder",
+        "image": "https://randomuser.me/api/portraits/men/5.jpg",
+        "imageAlt": "Zeki",
+        "quote": "Using Seedream 4.5 is like having a professional illustrator on staff 24/7, but for a fraction of the cost."
+      },
+      {
+        "name": "Joseph Kitheka",
+        "role": "Brand Consultant",
+        "image": "https://randomuser.me/api/portraits/men/9.jpg",
+        "imageAlt": "Joseph Kitheka",
+        "quote": "The style consistency helps me maintain brand guidelines for my clients while still being creative. A must-have tool."
+      },
+      {
+        "name": "Khatab Wedaa",
+        "role": "Photographer",
+        "image": "https://randomuser.me/api/portraits/men/10.jpg",
+        "imageAlt": "Khatab Wedaa",
+        "quote": "I use Seedream 4.5 to storyboard my photoshoots before I even pick up a camera. It saves so much time."
+      },
+      {
+        "name": "Rodrigo Aguilar",
+        "role": "Art Director",
+        "image": "https://randomuser.me/api/portraits/men/11.jpg",
+        "imageAlt": "Rodrigo Aguilar",
+        "quote": "I love this tool! The high-fidelity precision is real—the details in the eyes and textures are incredible."
+      },
+      {
+        "name": "Eric Ampire",
+        "role": "Creative Director",
+        "image": "https://randomuser.me/api/portraits/men/12.jpg",
+        "imageAlt": "Eric Ampire",
+        "quote": "Perfect for non-artists who need professional visuals. Seedream 4.5 bridges the gap between idea and execution."
+      },
+      {
+        "name": "Roland Tubonge",
+        "role": "Illustrator",
+        "image": "https://randomuser.me/api/portraits/men/13.jpg",
+        "imageAlt": "Roland Tubonge",
+        "quote": "Even as a traditional artist, I use Seedream 4.5 for inspiration and composition ideas. It's a fantastic companion."
+      }
+    ]
+  },
+  "pricing": {
+    "title": "Simple Pricing",
+    "subtitle": "Get Seedream 4.5 credits that fit your workflow",
+    "billingPeriods": {
+      "yearly": "Yearly",
+      "monthly": "Monthly",
+      "oneTime": "Top Up"
+    },
+    "save": "Save {percentage}%",
+    "microTrial": {
+      "title": "Not ready to subscribe?",
+      "description": "Try our one-time Micro Pack. No commitment.",
+      "price": "$1.99",
+      "badge": "One-Time",
+      "features": "60 Credits (approx. 5 images) · Valid forever",
+      "cta": "Get Micro Pack"
+    },
+    "plans": {
+      "monthly": [
+        {
+          "name": "Starter",
+          "price": "$4.99",
+          "period": "/month",
+          "description": "Perfect for hobbyists starting their AI journey.",
+          "features": [
+            "600 Credits (approx. 50 images)",
+            "Standard Speed Generation",
+            "2K High-Def Resolution",
+            "Personal Use License",
+            "Community Gallery Access"
+          ],
+          "cta": "Get Starter"
+        },
+        {
+          "name": "Pro",
+          "price": "$9.99",
+          "period": "/month",
+          "description": "For creators demanding professional quality.",
+          "popular": true,
+          "features": [
+            "1,500 Credits (approx. 125 images)",
+            "Fast Turbo Mode",
+            "2K High-Def Resolution",
+            "Commercial License Included",
+            "Priority Support"
+          ],
+          "cta": "Get Pro"
+        },
+        {
+          "name": "Elite",
+          "price": "$19.99",
+          "period": "/month",
+          "description": "Maximum power for agencies and power users.",
+          "features": [
+            "3,300 Credits (approx. 275 images)",
+            "Ultra-Fast Turbo Mode",
+            "4K Ultra-HD Resolution",
+            "Commercial License Included",
+            "API Access Available"
+          ],
+          "cta": "Get Elite"
+        }
+      ],
+      "yearly": [
+        {
+          "name": "Starter",
+          "price": "$49.90",
+          "period": "/year",
+          "originalPrice": "$59.88",
+          "description": "Perfect for hobbyists starting their AI journey.",
+          "features": [
+            "7,200 Credits / year",
+            "2 months free included",
+            "Standard Speed Generation",
+            "Personal Use License",
+            "Community Gallery Access"
+          ],
+          "cta": "Get Starter Yearly"
+        },
+        {
+          "name": "Pro",
+          "price": "$99.90",
+          "period": "/year",
+          "originalPrice": "$119.88",
+          "description": "For creators demanding professional quality.",
+          "popular": true,
+          "features": [
+            "18,000 Credits / year",
+            "2 months free included",
+            "Fast Turbo Mode",
+            "Commercial License Included",
+            "Priority Support"
+          ],
+          "cta": "Get Pro Yearly"
+        },
+        {
+          "name": "Elite",
+          "price": "$199.90",
+          "period": "/year",
+          "originalPrice": "$239.88",
+          "description": "Maximum power for agencies and power users.",
+          "features": [
+            "39,600 Credits / year",
+            "2 months free included",
+            "4K Ultra-HD Resolution",
+            "Commercial License Included",
+            "API Access Available"
+          ],
+          "cta": "Get Elite Yearly"
+        }
+      ]
+    }
+  },
+  "cta": {
+    "title": "Ready to Unleash Your Creativity?",
+    "subtitle": "Join thousands of users creating with Seedream 4.5 today.",
+    "button": "Start Creating for Free"
+  },
+  "payment": {
+    "success": {
+      "title": "Purchase Successful!",
+      "description": "Welcome to the club! Your Credits have been added. Start generating now."
+    },
+    "canceled": {
+      "title": "Purchase Canceled",
+      "description": "No worries, no charges were made. You can try again whenever you're ready."
+    },
+    "close": "Close"
+  },
+  "dashboard": {
+    "title": "My Studio",
+    "subtitle": "Manage your Seedream 4.5 account and usage",
+    "backToHome": "Back to Generator",
+    "errorLoading": "Could not load studio data",
+    "retry": "Try Again",
+    "credits": {
+      "title": "Credit Balance",
+      "description": "Credits available for generation",
+      "unit": "credits"
+    },
+    "plan": {
+      "title": "Subscription",
+      "activePlan": "Your current Seedream plan",
+      "freePlan": "You are on the Free Tier"
+    },
+    "plans": {
+      "free": "Free Tier",
+      "starter": "Seedling",
+      "pro": "Pro",
+      "premium": "Elite",
+      "first bite": "First Bite",
+      "creator": "Creator",
+      "power": "Power"
+    },
+    "status": {
+      "active": "Active",
+      "pastDue": "Payment Failed",
+      "trialing": "Trial",
+      "canceled": "Canceled",
+      "inactive": "Inactive"
+    },
+    "subscription": {
+      "title": "Billing Details",
+      "description": "Manage your payment method and history",
+      "renewalDate": "Renews On",
+      "monthlyCredits": "Monthly Allowance"
+    },
+    "actions": {
+      "title": "Studio Actions",
+      "upgradePlan": "Upgrade Plan",
+      "startGenerating": "Go to Canvas",
+      "manageSubscription": "Billing Settings",
+      "loadingPortal": "Loading Portal..."
+    }
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "subtitle": "Everything you need to know about Seedream 4.5.",
+    "contactText": "Still curious? Chat with our",
+    "contactLinkText": "support team",
+    "items": [
+      {
+        "question": "What is Seedream 4.5?",
+        "answer": "Seedream 4.5 is an advanced AI tool that converts text descriptions into high-quality images using state-of-the-art machine learning models."
+      },
+      {
+        "question": "Do I own the images I create?",
+        "answer": "Yes! If you are on the 'Pro' or 'Elite' plans, you own full commercial rights to your creations."
+      },
+      {
+        "question": "What formats can I download?",
+        "answer": "We support high-res PNG and JPG. Elite users can also request upscaled versions suitable for print."
+      },
+      {
+        "question": "How fast is generation?",
+        "answer": "Standard generation takes about 5-8 seconds. Turbo Mode (available on Elite plans) delivers results in under 3 seconds."
+      },
+      {
+        "question": "Can I get a refund?",
+        "answer": "We offer a 30-day satisfaction guarantee on all credit packs and subscriptions."
+      }
+    ],
+    "variants": {
+      "style1": {
+        "title": "FAQ",
+        "subtitle": "Common questions about our service",
+        "items": [
+          {
+            "question": "How does the refund policy work?",
+            "answer": "If you're not happy with Seedream 4.5, contact us within 30 days. We'll refund your last payment, no hard feelings.",
+            "steps": [
+              "Email support@seedream4-5.cc with your account email.",
+              "We process the refund within 3 business days.",
+              "Funds return to your card within 5-10 days."
+            ]
+          },
+          {
+            "question": "How do I cancel?",
+            "answer": "Go to your Dashboard > Subscription and click 'Cancel'. You keep your credits until the end of the billing period."
+          },
+          {
+            "question": "Can I switch plans?",
+            "answer": "Yes, you can upgrade or downgrade at any time via the Dashboard. Upgrades are prorated.",
+            "points": [
+              "Upgrading unlocks new features immediately.",
+              "Downgrading takes effect at the next renewal."
+            ]
+          },
+          {
+            "question": "Is there human support?",
+            "answer": "Yes! We have a dedicated support team. Pro and Elite users get priority queue jumping."
+          }
+        ]
+      },
+      "style2": {
+        "title": "Frequently Asked Questions",
+        "subtitle": "Learn more about Seedream 4.5 capabilities.",
+        "contactText": "Need help? Contact",
+        "contactLinkText": "Seedream Support",
+        "items": [
+          {
+            "question": "Why is it called Seedream 4.5?",
+            "answer": "Because we combine serious 'Seedream' technology with creativity (and we like yellow). It's fun, but the tech is powerful."
+          },
+          {
+            "question": "Payment methods?",
+            "answer": "We accept Visa, Mastercard, Amex, Google Pay, and Apple Pay. Secure and encrypted."
+          },
+          {
+            "question": "Can I edit images?",
+            "answer": "Yes, use our 'Inpainting' tool to redraw specific parts of an image without regenerating the whole thing."
+          },
+          {
+            "question": "API Access?",
+            "answer": "Yes, the Seedream 4.5 API is available for Elite subscribers who want to build their own apps on our engine."
+          },
+          {
+            "question": "Is my data safe?",
+            "answer": "Absolutely. We do not sell your personal data or your private image gallery to third parties."
+          }
+        ]
+      },
+      "style3": {
+        "title": "Support & FAQ",
+        "contactText": "Need help? Reach out to",
+        "contactLinkText": "Support",
+        "items": [
+          {
+            "icon": "clock",
+            "question": "Support Hours?",
+            "answer": "Our bots work 24/7. Our humans work Mon-Fri 9am-6pm EST. Elite users get 24/7 priority email support."
+          },
+          {
+            "icon": "credit-card",
+            "question": "Billing Cycle?",
+            "answer": "We bill on the anniversary of your signup date. Credits reset monthly for subscribers."
+          },
+          {
+            "icon": "truck",
+            "question": "Generation Speed?",
+            "answer": "Seedream 4.5 is optimized for speed. Most images finish in under 6 seconds."
+          },
+          {
+            "icon": "globe",
+            "question": "Languages supported?",
+            "answer": "You can type prompts in English, Spanish, French, German, Korean, and Japanese. Our AI understands them all."
+          },
+          {
+            "icon": "package",
+            "question": "Privacy?",
+            "answer": "We use bank-level encryption. Your prompts are your business, not ours."
+          }
+        ]
+      }
+    }
+  },
+  "footer": {
+    "company": "Seedream 4.5",
+    "description": "The leading high-fidelity AI image generator on the web. Create, share, and inspire.",
+    "links": {
+      "product": {
+        "title": "Product",
+        "items": [
+          "Features",
+          "Pricing",
+          "API Docs",
+          "Showcase"
+        ]
+      },
+      "company": {
+        "title": "Company",
+        "items": [
+          "About Us",
+          "Blog",
+          "Jobs",
+          "Contact"
+        ]
+      },
+      "support": {
+        "title": "Support",
+        "items": [
+          "Help Center",
+          "Discord Community",
+          "Tutorials",
+          "Status"
+        ]
+      },
+      "legal": {
+        "title": "Legal",
+        "items": [
+          "Privacy Policy",
+          "Terms of Service",
+          "Cookie Policy",
+          "Commercial Rights"
+        ]
+      }
+    },
+    "copyright": "© 2025 Seedream 4.5. All rights reserved."
+  },
+  "auth": {
+    "signin": {
+      "title": "Sign in to Seedream 4.5",
+      "subtitle": "Ready to create? Sign in to access your dashboard.",
+      "withGoogle": "Continue with Google"
+    }
+  },
+  "imageUpload": {
+    "placeholder": "Drop reference image here",
+    "uploading": "Uploading to Seedream Cloud...",
+    "uploadSuccess": "Image ready for reference",
+    "uploadFailed": "Upload failed: {status}",
+    "validationError": "File validation failed",
+    "unknownError": "Unknown error",
+    "uploadedImageAlt": "Reference image",
+    "selectFile": "Select Image",
+    "fileFormatInfo": "Supports JPG, PNG, WebP up to 5MB"
+  }
+}
