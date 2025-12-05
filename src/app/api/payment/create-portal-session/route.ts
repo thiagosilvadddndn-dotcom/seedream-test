@@ -3,7 +3,7 @@ import { getPaymentProvider } from '@/lib/payment-utils';
 
 /**
  * 统一的Customer Portal会话创建API
- * 根据环境变量决定使用 Stripe 还是 Creem
+ * 目前仅支持 Stripe
  */
 export async function POST(request: NextRequest) {
   try {
@@ -13,16 +13,14 @@ export async function POST(request: NextRequest) {
     const body = await request.text();
     const headers = new Headers(request.headers);
     
-    // 根据支付提供商决定转发到哪个API
-    const targetUrl = provider === 'stripe' 
-      ? '/api/stripe/create-portal-session'
-      : '/api/creem/create-portal-session';
+    // 直接使用 Stripe API
+    const targetUrl = '/api/stripe/create-portal-session';
     
     // 构建完整的URL
     const baseUrl = new URL(request.url).origin;
     const fullTargetUrl = new URL(targetUrl, baseUrl);
     
-    // 转发请求到对应的支付API
+    // 转发请求到 Stripe API
     const response = await fetch(fullTargetUrl, {
       method: 'POST',
       headers: {
@@ -43,7 +41,7 @@ export async function POST(request: NextRequest) {
     // 统一返回格式，兼容前端期望的格式
     const unifiedResponse = {
       success: true,
-      url: data.url || data.customer_portal_link, // Creem 返回的是 customer_portal_link
+      url: data.url,
       provider: provider,
     };
     

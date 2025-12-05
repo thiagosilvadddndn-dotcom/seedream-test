@@ -98,7 +98,7 @@ const Pricing = () => {
       }
 
       // 根据支付提供商类型进行重定向
-      if (data.provider === 'stripe' && data.sessionId) {
+      if (data.sessionId) {
         // 动态加载Stripe，只在需要时加载
         const { loadStripe } = await import('@stripe/stripe-js');
         const stripe = await loadStripe(process.env.NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY!);
@@ -114,7 +114,7 @@ const Pricing = () => {
           }
         }
       } else if (data.url) {
-        // 对于Creem或其他支付方式，直接使用URL重定向
+        // 直接使用URL重定向
         window.location.href = data.url;
       } else {
         alert('Failed to create checkout session');
